@@ -1,0 +1,67 @@
+.coffee-machine {
+  border: 3px solid black;
+  margin-top: 100px;
+}
+
+.coffee-list {
+  background-image: url("img/background.jpg");
+  background-size: cover;
+}
+
+.coffee-item {
+  max-height: 75px;
+  background: rgba(0, 0, 0, 0.7);
+  margin: 10px 0;
+  border-radius: calc(75px / 2);
+  cursor: pointer;
+}
+
+.coffee-item span {
+  color: white;
+  margin-left: 25px;
+}
+
+.coffee-item img {
+  height: 75px;
+  background: white;
+  border-radius: 50%;
+  margin-left: -15px;
+}
+
+.coffee-item:hover {
+  background: rgba(50, 50, 50, 0.7);
+}
+
+.coffee-oper {
+  background: lightgrey;
+}
+
+.display {
+  background: lightgreen;
+  border: 3px solid darkgreen;
+  padding: 10px;
+  margin-bottom: 30px;
+  
+}
+.coffee-cup img {
+  width: 100%;
+}
+.atm img {
+  width: 100%; 
+}
+
+.change-box {
+  background: grey;
+  border: 3px solid black; 
+  height: 100px;
+  margin-top: 15px;
+}
+
+.wallet img {
+  cursor: pointer;
+  width: 20%;/*размер купюр*/
+}
+
+.change-box {
+position: relative;
+}
